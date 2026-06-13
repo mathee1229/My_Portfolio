@@ -2,7 +2,7 @@ import React from 'react';
 
 function About() {
   return (
-    // 1. මුළු පිටුවේම පසුබිම දෙපැත්තටම යනකම්ම සම්පූර්ණයෙන් කළු කරන්න මේ wrapper එක දැම්මා
+  
     <div style={{ 
       backgroundColor: '#000000', 
       width: '100%', 
@@ -10,10 +10,10 @@ function About() {
       boxSizing: 'border-box' 
     }}>
       
-      {/* 2. මැද තියෙන content කොටස කලින් තිබ්බ විදිහටම maxWidth 900px වලින් සකස් කරා */}
+    
       <main style={{ padding: '60px 20px', maxWidth: '900px', margin: '0 auto', position: 'relative' }}>
         
-        {/* Background Neon Glow Effect */}
+       
         <div style={{
           position: 'absolute',
           width: '250px',
@@ -32,7 +32,7 @@ function About() {
 
         <div style={{ display: 'flex', flexDirection: 'column', gap: '30px' }}>
           
-          {/* 1. Educational Background (Box එක කලින් තිබුණු Styles මයි) */}
+        
           <section style={{ background: '#111827', padding: '25px', borderRadius: '12px', border: '1px solid rgba(255,255,255,0.05)' }}>
             <h3 style={{ color: '#00f2fe', fontSize: '1.4rem', marginBottom: '10px' }}>Educational Background</h3>
             <p style={{ color: '#9ca3af', lineHeight: '1.7' }}>
@@ -40,7 +40,7 @@ function About() {
             </p>
           </section>
 
-          {/* 2. Technical Skills (Box එක කලින් තිබුණු Styles මයි) */}
+         
           <section style={{ background: '#111827', padding: '25px', borderRadius: '12px', border: '1px solid rgba(255,255,255,0.05)' }}>
             <h3 style={{ color: '#00f2fe', fontSize: '1.4rem', marginBottom: '15px' }}>Technical Skills</h3>
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px' }}>
@@ -52,7 +52,7 @@ function About() {
             </div>
           </section>
 
-          {/* 3. Career Aspirations (Box එක කලින් තිබුණු Styles මයි) */}
+         
           <section style={{ background: '#111827', padding: '25px', borderRadius: '12px', border: '1px solid rgba(255,255,255,0.05)' }}>
             <h3 style={{ color: '#00f2fe', fontSize: '1.4rem', marginBottom: '10px' }}>Career Aspirations</h3>
             <p style={{ color: '#9ca3af', lineHeight: '1.7' }}>

@@ -22,9 +22,9 @@ function Projects() {
     },
     {
       title: "Food Ordering System",
-      // අලුත් Description එක: කෑම ඇණවුම් කරන පද්ධතියට ගැලපෙන විදිහට සකස් කරා
+      
       description: "A modern, full-stack food delivery web application that enables users to browse menus, manage a real-time shopping cart, and place orders. Integrated with secure user authentication and a dynamic database to track active orders.",
-      // Tech Badges ටිකත් කෑම ඇණවුම් කරන ඇප් එකකට ගැලපෙන ලෙස යාවත්කාලීන කරා
+    
       tech: ["React.js", "Firebase", "Tailwind CSS"],
       github: "#" 
     }
@@ -44,7 +44,7 @@ function Projects() {
           My <span style={{ color: '#00f2fe' }}>Projects</span>
         </h2>
         
-        {/* Grid Layout */}
+       
         <div style={{ 
           display: 'grid', 
           gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', 
@@ -85,7 +85,6 @@ function Projects() {
               </div>
               
               <div>
-                {/* Tech Badges */}
                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px', marginBottom: '20px' }}>
                   {project.tech.map((t, i) => (
                     <span key={i} style={{ 
@@ -101,7 +100,7 @@ function Projects() {
                   ))}
                 </div>
                 
-                {/* GitHub Link */}
+                
                 <a 
                   href={project.github} 
                   target="_blank" 

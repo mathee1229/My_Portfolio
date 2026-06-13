@@ -29,7 +29,7 @@ function Contact() {
           alignItems: 'start'
         }}>
           
-          {/* ================= LEFT SIDE: CONTACT INFO (ALL IN ONE VERTICAL LIST) ================= */}
+        
           <div style={{
             background: '#111827', 
             padding: '35px', 
@@ -52,7 +52,7 @@ function Contact() {
               </div>
             </div>
 
-            {/* 2. Call Us Item (Typo එක නිවැරදි කරා - දැන් icon එක ලස්සනට පෙනේවි) */}
+           
             <div style={{ display: 'flex', alignItems: 'center', gap: '20px' }}>
               <div style={iconBoxStyle}>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#00f2fe" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
@@ -74,7 +74,7 @@ function Contact() {
               </div>
             </div>
 
-            {/* 4. GitHub Item (දැන් අනෙක් ඒවා වගේම පේළියට පහළින් එනවා) */}
+            
             <a 
               href="https://github.com/mathee1229" 
               target="_blank" 
@@ -92,7 +92,7 @@ function Contact() {
               </div>
             </a>
 
-            {/* 5. LinkedIn Item (දැන් අනෙක් ඒවා වගේම පේළියට පහළින් එනවා) */}
+           
             <a 
               href="https://www.linkedin.com/in/matheesha-ik-jayawardhana-15bb16333?utm_source=share_via&utm_content=profile&utm_medium=member_android" 
               target="_blank" 
@@ -110,7 +110,7 @@ function Contact() {
               </div>
             </a>
 
-            {/* Live Google Map Embed */}
+           
             <div style={{ width: '100%', height: '230px', marginTop: '10px', borderRadius: '12px', overflow: 'hidden' }}>
               <iframe 
                 title="Google Map Location"
@@ -123,7 +123,7 @@ function Contact() {
 
           </div>
 
-          {/* ================= RIGHT SIDE: FORM / SUCCESS MESSAGE ================= */}
+          
           <div style={{ width: '100%' }}>
             {submitted ? (
               <div style={{ 
@@ -222,7 +222,7 @@ function Contact() {
   );
 }
 
-// Icons වටේට තියෙන කුඩා රවුම් සඳහා පොදු style object එක
+
 const iconBoxStyle = {
   width: '45px',
   height: '45px',
@@ -235,7 +235,7 @@ const iconBoxStyle = {
   transition: 'background 0.3s ease'
 };
 
-// Reusable Dynamic Input Style Object
+
 const inputStyle = {
   padding: '12px',
   background: '#0b0f19',

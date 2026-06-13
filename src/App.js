@@ -9,7 +9,7 @@ import Contact from './Pages/Contact';
 function App() {
   return (
     <Router>
-      {/* Navbar එක Routes වලින් එළියට ගත්තා, එතකොට හැම පිටුවකම මේක පේනවා */}
+      
       <Navbar /> 
       
       <Routes>

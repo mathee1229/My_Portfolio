@@ -75,21 +75,21 @@ function Home() {
           />
         </div>
 
-        {/* 3. INTERACTIVE CTA BUTTON BLOCK (දැන් මේකෙත් box එක අයින් කරා) */}
+        
         <div style={{
           gridColumn: '1/-1',
-          maxWidth: '1100px', // උඩ grid එකේ පළලටම සමාන වෙන්න 750px සිට 1100px දක්වා වැඩි කරා
+          maxWidth: '1100px', 
           width: '100%',
-          margin: '20px auto 0 auto', // උඩ කොටස් වල ඉඳන් පොඩි ඉඩක් තියාගන්න margin එකක් දුන්නා
-          background: 'transparent',  // පසුබිම් වර්ණය transparent කරා
-          border: 'none',             // Border එක අයින් කරා
-          padding: '20px 0px',        // වටේ කොටුව නැති නිසා padding දෙපැත්ත 0 කරා ලස්සනට align වෙන්න
+          margin: '20px auto 0 auto', 
+          background: 'transparent',  
+          border: 'none',            
+          padding: '20px 0px',        
           display: 'flex',
           justifyContent: 'space-between',
           alignItems: 'center',
           textAlign: 'left',
           boxSizing: 'border-box',
-          borderTop: '1px solid #1e293b' // Optional: පේජ් එකේ වෙන් වීම ලස්සනට පේන්න උඩින් විතරක් හීනි line එකක් දැම්මා
+          borderTop: '1px solid #1e293b' 
         }}>
           <div>
             <h3 style={{ fontSize: '1.2rem', fontWeight: '600', color: '#ffffff', marginBottom: '4px' }}>Technical Showcase</h3>
